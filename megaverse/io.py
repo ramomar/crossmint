@@ -1,11 +1,10 @@
 import requests
 import json
 
+# It's better to have a .env file, but this is ok for the purpose of this code.
 MAP_URL = 'https://challenge.crossmint.io/map'
 API_HOST = 'https://challenge.crossmint.io/api'
-# It's better to have a .env file, but this is ok for the purpose of this code.
 CANDIDATE_ID = '8e0265e6-f525-4f4b-9ddd-d8b405fdbfeb'
-
 ENTITY_TO_RESOURCE = {
     'polyanet': 'polyanets',
     'soloon': 'soloons',
