@@ -1,5 +1,6 @@
-import requests
 import json
+import requests
+
 from megaverse import entities
 
 # It's better to have a .env file, but this is ok for the purpose of this code.
