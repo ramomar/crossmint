@@ -20,4 +20,3 @@ Regarding the main script, it only contains two functions, `solve_phase_1`, and 
 I included some `logic` tests, in order to run them, you must install `pytest` and then run:
 
 `python3 -m pytest` 
-
