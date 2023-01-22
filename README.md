@@ -13,6 +13,8 @@ Here's a short description of each namespace functionality and intent.
 | entities          | Contains definitions of API entities. |
 
 
+Regarding the main script, it only contains two functions, `solve_phase_1`, and `solve_phase_2`.
+
 ## Tests
 
 I included some `logic` tests, in order to run them, you must install `pytest` and then run:
