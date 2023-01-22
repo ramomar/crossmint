@@ -16,6 +16,7 @@ def solve_phase_1():
             'column': column,
         }
         response = io.post_entity('POLYANET', request_data)
+        
         print(response.json())
 
     print(f'View map: {io.MAP_URL}')
